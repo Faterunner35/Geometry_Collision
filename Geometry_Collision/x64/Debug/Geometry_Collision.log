@@ -1,0 +1,777 @@
+﻿  BouncingSpheresWindow.cpp
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(513,21): error C2039: 'atan': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(14,1): message : see declaration of 'std'
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(513,25): error C3861: 'atan': identifier not found
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(518,21): error C2039: 'atan2': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(14,1): message : see declaration of 'std'
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(518,26): error C3861: 'atan2': identifier not found
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(528,21): error C2039: 'cos': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(14,1): message : see declaration of 'std'
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(528,24): error C3861: 'cos': identifier not found
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(533,21): error C2039: 'exp': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(14,1): message : see declaration of 'std'
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(533,24): error C3861: 'exp': identifier not found
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(538,28): error C2039: 'sqrt': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(14,1): message : see declaration of 'std'
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(538,32): error C3861: 'sqrt': identifier not found
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(558,21): error C2039: 'sin': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(14,1): message : see declaration of 'std'
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(558,24): error C3861: 'sin': identifier not found
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(569,21): error C2039: 'atan': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(14,1): message : see declaration of 'std'
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(569,25): error C3861: 'atan': identifier not found
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(574,21): error C2039: 'atan2': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(14,1): message : see declaration of 'std'
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(574,26): error C3861: 'atan2': identifier not found
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(584,21): error C2039: 'cos': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(14,1): message : see declaration of 'std'
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(584,24): error C3861: 'cos': identifier not found
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(589,21): error C2039: 'exp': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(14,1): message : see declaration of 'std'
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(589,24): error C3861: 'exp': identifier not found
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(594,27): error C2039: 'sqrt': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(14,1): message : see declaration of 'std'
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(594,31): error C3861: 'sqrt': identifier not found
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(614,21): error C2039: 'sin': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(14,1): message : see declaration of 'std'
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(614,24): error C3861: 'sin': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(19,16): error C2039: 'fabs': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(19,20): error C3861: 'fabs': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(27,45): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(32,16): error C2039: 'fabsf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(32,21): error C3861: 'fabsf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(37,16): error C2039: 'acosf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(37,21): error C3861: 'acosf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(42,16): error C2039: 'acoshf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(42,22): error C3861: 'acoshf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(47,16): error C2039: 'asinf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(47,21): error C3861: 'asinf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(52,16): error C2039: 'asinhf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(52,22): error C3861: 'asinhf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(57,16): error C2039: 'atanf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(57,21): error C3861: 'atanf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(62,16): error C2039: 'atanhf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(62,22): error C3861: 'atanhf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(67,16): error C2039: 'atan2f': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(67,22): error C3861: 'atan2f': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(72,16): error C2039: 'cbrtf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(72,21): error C3861: 'cbrtf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(77,16): error C2039: 'ceilf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(77,21): error C3861: 'ceilf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(83,16): error C2039: 'copysignf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(83,25): error C3861: 'copysignf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(88,16): error C2039: 'cosf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(88,20): error C3861: 'cosf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(93,16): error C2039: 'coshf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(93,21): error C3861: 'coshf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(98,16): error C2039: 'erff': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(98,20): error C3861: 'erff': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(103,16): error C2039: 'erfcf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(103,21): error C3861: 'erfcf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(108,16): error C2039: 'expf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(108,20): error C3861: 'expf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(113,16): error C2039: 'exp2f': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(113,21): error C3861: 'exp2f': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(118,16): error C2039: 'expm1f': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(118,22): error C3861: 'expm1f': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(123,16): error C2039: 'fabsf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(123,21): error C3861: 'fabsf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(128,16): error C2039: 'fdimf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(128,21): error C3861: 'fdimf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(133,16): error C2039: 'floorf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(133,22): error C3861: 'floorf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(139,16): error C2039: 'fmaf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(139,20): error C3861: 'fmaf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(144,16): error C2039: 'fmaxf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(144,21): error C3861: 'fmaxf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(149,16): error C2039: 'fminf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(149,21): error C3861: 'fminf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(154,16): error C2039: 'fmodf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(154,21): error C3861: 'fmodf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(159,16): error C2039: 'frexpf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(159,22): error C3861: 'frexpf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(164,16): error C2039: 'hypotf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(164,22): error C3861: 'hypotf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(169,16): error C2039: 'ilogbf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(169,22): error C3861: 'ilogbf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(174,16): error C2039: 'ldexpf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(174,22): error C3861: 'ldexpf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(179,16): error C2039: 'lgammaf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(179,23): error C3861: 'lgammaf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(184,16): error C2039: 'llrintf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(184,23): error C3861: 'llrintf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(189,16): error C2039: 'llroundf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(189,24): error C3861: 'llroundf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(194,16): error C2039: 'logf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(194,20): error C3861: 'logf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(199,16): error C2039: 'log10f': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(199,22): error C3861: 'log10f': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(204,16): error C2039: 'log1pf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(204,22): error C3861: 'log1pf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(209,16): error C2039: 'log2f': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(209,21): error C3861: 'log2f': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(214,16): error C2039: 'logbf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(214,21): error C3861: 'logbf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(219,16): error C2039: 'lrintf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(219,22): fatal  error C1003: error count exceeds 100; stopping compilation
+  BoxSphereIntersectionWindow.cpp
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(513,21): error C2039: 'atan': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(14,1): message : see declaration of 'std'
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(513,25): error C3861: 'atan': identifier not found
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(518,21): error C2039: 'atan2': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(14,1): message : see declaration of 'std'
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(518,26): error C3861: 'atan2': identifier not found
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(528,21): error C2039: 'cos': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(14,1): message : see declaration of 'std'
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(528,24): error C3861: 'cos': identifier not found
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(533,21): error C2039: 'exp': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(14,1): message : see declaration of 'std'
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(533,24): error C3861: 'exp': identifier not found
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(538,28): error C2039: 'sqrt': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(14,1): message : see declaration of 'std'
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(538,32): error C3861: 'sqrt': identifier not found
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(558,21): error C2039: 'sin': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(14,1): message : see declaration of 'std'
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(558,24): error C3861: 'sin': identifier not found
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(569,21): error C2039: 'atan': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(14,1): message : see declaration of 'std'
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(569,25): error C3861: 'atan': identifier not found
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(574,21): error C2039: 'atan2': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(14,1): message : see declaration of 'std'
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(574,26): error C3861: 'atan2': identifier not found
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(584,21): error C2039: 'cos': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(14,1): message : see declaration of 'std'
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(584,24): error C3861: 'cos': identifier not found
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(589,21): error C2039: 'exp': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(14,1): message : see declaration of 'std'
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(589,24): error C3861: 'exp': identifier not found
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(594,27): error C2039: 'sqrt': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(14,1): message : see declaration of 'std'
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(594,31): error C3861: 'sqrt': identifier not found
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(614,21): error C2039: 'sin': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(14,1): message : see declaration of 'std'
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(614,24): error C3861: 'sin': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(19,16): error C2039: 'fabs': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(19,20): error C3861: 'fabs': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(27,45): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(32,16): error C2039: 'fabsf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(32,21): error C3861: 'fabsf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(37,16): error C2039: 'acosf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(37,21): error C3861: 'acosf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(42,16): error C2039: 'acoshf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(42,22): error C3861: 'acoshf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(47,16): error C2039: 'asinf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(47,21): error C3861: 'asinf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(52,16): error C2039: 'asinhf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(52,22): error C3861: 'asinhf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(57,16): error C2039: 'atanf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(57,21): error C3861: 'atanf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(62,16): error C2039: 'atanhf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(62,22): error C3861: 'atanhf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(67,16): error C2039: 'atan2f': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(67,22): error C3861: 'atan2f': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(72,16): error C2039: 'cbrtf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(72,21): error C3861: 'cbrtf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(77,16): error C2039: 'ceilf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(77,21): error C3861: 'ceilf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(83,16): error C2039: 'copysignf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(83,25): error C3861: 'copysignf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(88,16): error C2039: 'cosf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(88,20): error C3861: 'cosf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(93,16): error C2039: 'coshf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(93,21): error C3861: 'coshf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(98,16): error C2039: 'erff': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(98,20): error C3861: 'erff': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(103,16): error C2039: 'erfcf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(103,21): error C3861: 'erfcf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(108,16): error C2039: 'expf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(108,20): error C3861: 'expf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(113,16): error C2039: 'exp2f': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(113,21): error C3861: 'exp2f': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(118,16): error C2039: 'expm1f': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(118,22): error C3861: 'expm1f': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(123,16): error C2039: 'fabsf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(123,21): error C3861: 'fabsf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(128,16): error C2039: 'fdimf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(128,21): error C3861: 'fdimf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(133,16): error C2039: 'floorf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(133,22): error C3861: 'floorf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(139,16): error C2039: 'fmaf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(139,20): error C3861: 'fmaf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(144,16): error C2039: 'fmaxf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(144,21): error C3861: 'fmaxf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(149,16): error C2039: 'fminf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(149,21): error C3861: 'fminf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(154,16): error C2039: 'fmodf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(154,21): error C3861: 'fmodf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(159,16): error C2039: 'frexpf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(159,22): error C3861: 'frexpf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(164,16): error C2039: 'hypotf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(164,22): error C3861: 'hypotf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(169,16): error C2039: 'ilogbf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(169,22): error C3861: 'ilogbf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(174,16): error C2039: 'ldexpf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(174,22): error C3861: 'ldexpf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(179,16): error C2039: 'lgammaf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(179,23): error C3861: 'lgammaf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(184,16): error C2039: 'llrintf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(184,23): error C3861: 'llrintf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(189,16): error C2039: 'llroundf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(189,24): error C3861: 'llroundf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(194,16): error C2039: 'logf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(194,20): error C3861: 'logf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(199,16): error C2039: 'log10f': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(199,22): error C3861: 'log10f': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(204,16): error C2039: 'log1pf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(204,22): error C3861: 'log1pf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(209,16): error C2039: 'log2f': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(209,21): error C3861: 'log2f': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(214,16): error C2039: 'logbf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(214,21): error C3861: 'logbf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(219,16): error C2039: 'lrintf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(219,22): fatal  error C1003: error count exceeds 100; stopping compilation
+  Geometry_Collision.cpp
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(513,21): error C2039: 'atan': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(14,1): message : see declaration of 'std'
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(513,25): error C3861: 'atan': identifier not found
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(518,21): error C2039: 'atan2': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(14,1): message : see declaration of 'std'
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(518,26): error C3861: 'atan2': identifier not found
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(528,21): error C2039: 'cos': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(14,1): message : see declaration of 'std'
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(528,24): error C3861: 'cos': identifier not found
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(533,21): error C2039: 'exp': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(14,1): message : see declaration of 'std'
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(533,24): error C3861: 'exp': identifier not found
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(538,28): error C2039: 'sqrt': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(14,1): message : see declaration of 'std'
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(538,32): error C3861: 'sqrt': identifier not found
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(558,21): error C2039: 'sin': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(14,1): message : see declaration of 'std'
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(558,24): error C3861: 'sin': identifier not found
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(569,21): error C2039: 'atan': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(14,1): message : see declaration of 'std'
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(569,25): error C3861: 'atan': identifier not found
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(574,21): error C2039: 'atan2': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(14,1): message : see declaration of 'std'
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(574,26): error C3861: 'atan2': identifier not found
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(584,21): error C2039: 'cos': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(14,1): message : see declaration of 'std'
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(584,24): error C3861: 'cos': identifier not found
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(589,21): error C2039: 'exp': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(14,1): message : see declaration of 'std'
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(589,24): error C3861: 'exp': identifier not found
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(594,27): error C2039: 'sqrt': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(14,1): message : see declaration of 'std'
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(594,31): error C3861: 'sqrt': identifier not found
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(614,21): error C2039: 'sin': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(14,1): message : see declaration of 'std'
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(614,24): error C3861: 'sin': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(19,16): error C2039: 'fabs': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(19,20): error C3861: 'fabs': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(27,45): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(32,16): error C2039: 'fabsf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(32,21): error C3861: 'fabsf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(37,16): error C2039: 'acosf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(37,21): error C3861: 'acosf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(42,16): error C2039: 'acoshf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(42,22): error C3861: 'acoshf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(47,16): error C2039: 'asinf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(47,21): error C3861: 'asinf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(52,16): error C2039: 'asinhf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(52,22): error C3861: 'asinhf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(57,16): error C2039: 'atanf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(57,21): error C3861: 'atanf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(62,16): error C2039: 'atanhf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(62,22): error C3861: 'atanhf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(67,16): error C2039: 'atan2f': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(67,22): error C3861: 'atan2f': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(72,16): error C2039: 'cbrtf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(72,21): error C3861: 'cbrtf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(77,16): error C2039: 'ceilf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(77,21): error C3861: 'ceilf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(83,16): error C2039: 'copysignf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(83,25): error C3861: 'copysignf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(88,16): error C2039: 'cosf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(88,20): error C3861: 'cosf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(93,16): error C2039: 'coshf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(93,21): error C3861: 'coshf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(98,16): error C2039: 'erff': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(98,20): error C3861: 'erff': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(103,16): error C2039: 'erfcf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(103,21): error C3861: 'erfcf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(108,16): error C2039: 'expf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(108,20): error C3861: 'expf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(113,16): error C2039: 'exp2f': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(113,21): error C3861: 'exp2f': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(118,16): error C2039: 'expm1f': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(118,22): error C3861: 'expm1f': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(123,16): error C2039: 'fabsf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(123,21): error C3861: 'fabsf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(128,16): error C2039: 'fdimf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(128,21): error C3861: 'fdimf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(133,16): error C2039: 'floorf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(133,22): error C3861: 'floorf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(139,16): error C2039: 'fmaf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(139,20): error C3861: 'fmaf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(144,16): error C2039: 'fmaxf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(144,21): error C3861: 'fmaxf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(149,16): error C2039: 'fminf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(149,21): error C3861: 'fminf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(154,16): error C2039: 'fmodf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(154,21): error C3861: 'fmodf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(159,16): error C2039: 'frexpf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(159,22): error C3861: 'frexpf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(164,16): error C2039: 'hypotf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(164,22): error C3861: 'hypotf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(169,16): error C2039: 'ilogbf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(169,22): error C3861: 'ilogbf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(174,16): error C2039: 'ldexpf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(174,22): error C3861: 'ldexpf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(179,16): error C2039: 'lgammaf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(179,23): error C3861: 'lgammaf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(184,16): error C2039: 'llrintf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(184,23): error C3861: 'llrintf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(189,16): error C2039: 'llroundf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(189,24): error C3861: 'llroundf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(194,16): error C2039: 'logf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(194,20): error C3861: 'logf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(199,16): error C2039: 'log10f': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(199,22): error C3861: 'log10f': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(204,16): error C2039: 'log1pf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(204,22): error C3861: 'log1pf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(209,16): error C2039: 'log2f': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(209,21): error C3861: 'log2f': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(214,16): error C2039: 'logbf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(214,21): error C3861: 'logbf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(219,16): error C2039: 'lrintf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(219,22): fatal  error C1003: error count exceeds 100; stopping compilation
+  MovingSphereBoxWindow.cpp
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(513,21): error C2039: 'atan': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(14,1): message : see declaration of 'std'
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(513,25): error C3861: 'atan': identifier not found
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(518,21): error C2039: 'atan2': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(14,1): message : see declaration of 'std'
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(518,26): error C3861: 'atan2': identifier not found
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(528,21): error C2039: 'cos': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(14,1): message : see declaration of 'std'
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(528,24): error C3861: 'cos': identifier not found
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(533,21): error C2039: 'exp': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(14,1): message : see declaration of 'std'
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(533,24): error C3861: 'exp': identifier not found
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(538,28): error C2039: 'sqrt': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(14,1): message : see declaration of 'std'
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(538,32): error C3861: 'sqrt': identifier not found
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(558,21): error C2039: 'sin': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(14,1): message : see declaration of 'std'
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(558,24): error C3861: 'sin': identifier not found
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(569,21): error C2039: 'atan': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(14,1): message : see declaration of 'std'
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(569,25): error C3861: 'atan': identifier not found
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(574,21): error C2039: 'atan2': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(14,1): message : see declaration of 'std'
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(574,26): error C3861: 'atan2': identifier not found
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(584,21): error C2039: 'cos': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(14,1): message : see declaration of 'std'
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(584,24): error C3861: 'cos': identifier not found
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(589,21): error C2039: 'exp': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(14,1): message : see declaration of 'std'
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(589,24): error C3861: 'exp': identifier not found
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(594,27): error C2039: 'sqrt': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(14,1): message : see declaration of 'std'
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(594,31): error C3861: 'sqrt': identifier not found
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(614,21): error C2039: 'sin': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(14,1): message : see declaration of 'std'
+C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics\math.h(614,24): error C3861: 'sin': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(19,16): error C2039: 'fabs': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(19,20): error C3861: 'fabs': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(27,45): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(32,16): error C2039: 'fabsf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(32,21): error C3861: 'fabsf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(37,16): error C2039: 'acosf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(37,21): error C3861: 'acosf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(42,16): error C2039: 'acoshf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(42,22): error C3861: 'acoshf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(47,16): error C2039: 'asinf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(47,21): error C3861: 'asinf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(52,16): error C2039: 'asinhf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(52,22): error C3861: 'asinhf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(57,16): error C2039: 'atanf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(57,21): error C3861: 'atanf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(62,16): error C2039: 'atanhf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(62,22): error C3861: 'atanhf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(67,16): error C2039: 'atan2f': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(67,22): error C3861: 'atan2f': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(72,16): error C2039: 'cbrtf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(72,21): error C3861: 'cbrtf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(77,16): error C2039: 'ceilf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(77,21): error C3861: 'ceilf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(83,16): error C2039: 'copysignf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(83,25): error C3861: 'copysignf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(88,16): error C2039: 'cosf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(88,20): error C3861: 'cosf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(93,16): error C2039: 'coshf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(93,21): error C3861: 'coshf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(98,16): error C2039: 'erff': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(98,20): error C3861: 'erff': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(103,16): error C2039: 'erfcf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(103,21): error C3861: 'erfcf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(108,16): error C2039: 'expf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(108,20): error C3861: 'expf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(113,16): error C2039: 'exp2f': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(113,21): error C3861: 'exp2f': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(118,16): error C2039: 'expm1f': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(118,22): error C3861: 'expm1f': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(123,16): error C2039: 'fabsf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(123,21): error C3861: 'fabsf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(128,16): error C2039: 'fdimf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(128,21): error C3861: 'fdimf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(133,16): error C2039: 'floorf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(133,22): error C3861: 'floorf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(139,16): error C2039: 'fmaf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(139,20): error C3861: 'fmaf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(144,16): error C2039: 'fmaxf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(144,21): error C3861: 'fmaxf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(149,16): error C2039: 'fminf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(149,21): error C3861: 'fminf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(154,16): error C2039: 'fmodf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(154,21): error C3861: 'fmodf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(159,16): error C2039: 'frexpf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(159,22): error C3861: 'frexpf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(164,16): error C2039: 'hypotf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(164,22): error C3861: 'hypotf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(169,16): error C2039: 'ilogbf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(169,22): error C3861: 'ilogbf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(174,16): error C2039: 'ldexpf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(174,22): error C3861: 'ldexpf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(179,16): error C2039: 'lgammaf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(179,23): error C3861: 'lgammaf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(184,16): error C2039: 'llrintf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(184,23): error C3861: 'llrintf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(189,16): error C2039: 'llroundf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(189,24): error C3861: 'llroundf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(194,16): error C2039: 'logf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(194,20): error C3861: 'logf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(199,16): error C2039: 'log10f': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(199,22): error C3861: 'log10f': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(204,16): error C2039: 'log1pf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(204,22): error C3861: 'log1pf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(209,16): error C2039: 'log2f': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(209,21): error C3861: 'log2f': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(214,16): error C2039: 'logbf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(214,21): error C3861: 'logbf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(219,16): error C2039: 'lrintf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(219,22): fatal  error C1003: error count exceeds 100; stopping compilation
+  PhysModule.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(19,16): error C2039: 'fabs': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(19,20): error C3861: 'fabs': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(27,45): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(32,16): error C2039: 'fabsf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(32,21): error C3861: 'fabsf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(37,16): error C2039: 'acosf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(37,21): error C3861: 'acosf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(42,16): error C2039: 'acoshf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(42,22): error C3861: 'acoshf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(47,16): error C2039: 'asinf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(47,21): error C3861: 'asinf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(52,16): error C2039: 'asinhf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(52,22): error C3861: 'asinhf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(57,16): error C2039: 'atanf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(57,21): error C3861: 'atanf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(62,16): error C2039: 'atanhf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(62,22): error C3861: 'atanhf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(67,16): error C2039: 'atan2f': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(67,22): error C3861: 'atan2f': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(72,16): error C2039: 'cbrtf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(72,21): error C3861: 'cbrtf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(77,16): error C2039: 'ceilf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(77,21): error C3861: 'ceilf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(83,16): error C2039: 'copysignf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(83,25): error C3861: 'copysignf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(88,16): error C2039: 'cosf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(88,20): error C3861: 'cosf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(93,16): error C2039: 'coshf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(93,21): error C3861: 'coshf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(98,16): error C2039: 'erff': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(98,20): error C3861: 'erff': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(103,16): error C2039: 'erfcf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(103,21): error C3861: 'erfcf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(108,16): error C2039: 'expf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(108,20): error C3861: 'expf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(113,16): error C2039: 'exp2f': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(113,21): error C3861: 'exp2f': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(118,16): error C2039: 'expm1f': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(118,22): error C3861: 'expm1f': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(123,16): error C2039: 'fabsf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(123,21): error C3861: 'fabsf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(128,16): error C2039: 'fdimf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(128,21): error C3861: 'fdimf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(133,16): error C2039: 'floorf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(133,22): error C3861: 'floorf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(139,16): error C2039: 'fmaf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(139,20): error C3861: 'fmaf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(144,16): error C2039: 'fmaxf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(144,21): error C3861: 'fmaxf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(149,16): error C2039: 'fminf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(149,21): error C3861: 'fminf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(154,16): error C2039: 'fmodf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(154,21): error C3861: 'fmodf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(159,16): error C2039: 'frexpf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(159,22): error C3861: 'frexpf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(164,16): error C2039: 'hypotf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(164,22): error C3861: 'hypotf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(169,16): error C2039: 'ilogbf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(169,22): error C3861: 'ilogbf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(174,16): error C2039: 'ldexpf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(174,22): error C3861: 'ldexpf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(179,16): error C2039: 'lgammaf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(179,23): error C3861: 'lgammaf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(184,16): error C2039: 'llrintf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(184,23): error C3861: 'llrintf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(189,16): error C2039: 'llroundf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(189,24): error C3861: 'llroundf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(194,16): error C2039: 'logf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(194,20): error C3861: 'logf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(199,16): error C2039: 'log10f': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(199,22): error C3861: 'log10f': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(204,16): error C2039: 'log1pf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(204,22): error C3861: 'log1pf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(209,16): error C2039: 'log2f': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(209,21): error C3861: 'log2f': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(214,16): error C2039: 'logbf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(214,21): error C3861: 'logbf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(219,16): error C2039: 'lrintf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(219,22): error C3861: 'lrintf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(224,16): error C2039: 'lroundf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(224,23): error C3861: 'lroundf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(229,16): error C2039: 'modff': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(229,21): error C3861: 'modff': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(234,16): error C2039: 'nearbyintf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(234,26): error C3861: 'nearbyintf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(239,16): error C2039: 'nextafterf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(239,26): error C3861: 'nextafterf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(245,16): error C2039: 'nexttowardf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(245,27): error C3861: 'nexttowardf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(251,16): error C2039: 'powf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(251,20): error C3861: 'powf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(259,16): error C2039: 'powf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(259,20): error C3861: 'powf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(264,16): error C2039: 'remainderf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(264,26): error C3861: 'remainderf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(270,16): error C2039: 'remquof': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(270,23): error C3861: 'remquof': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(275,16): error C2039: 'rintf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(275,21): error C3861: 'rintf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(280,16): error C2039: 'roundf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(280,22): error C3861: 'roundf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(285,16): error C2039: 'scalblnf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(285,24): fatal  error C1003: error count exceeds 100; stopping compilation
+  RigidPlane.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(19,16): error C2039: 'fabs': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(19,20): error C3861: 'fabs': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(27,45): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(32,16): error C2039: 'fabsf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(32,21): error C3861: 'fabsf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(37,16): error C2039: 'acosf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(37,21): error C3861: 'acosf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(42,16): error C2039: 'acoshf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(42,22): error C3861: 'acoshf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(47,16): error C2039: 'asinf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(47,21): error C3861: 'asinf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(52,16): error C2039: 'asinhf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(52,22): error C3861: 'asinhf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(57,16): error C2039: 'atanf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(57,21): error C3861: 'atanf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(62,16): error C2039: 'atanhf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(62,22): error C3861: 'atanhf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(67,16): error C2039: 'atan2f': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(67,22): error C3861: 'atan2f': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(72,16): error C2039: 'cbrtf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(72,21): error C3861: 'cbrtf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(77,16): error C2039: 'ceilf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(77,21): error C3861: 'ceilf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(83,16): error C2039: 'copysignf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(83,25): error C3861: 'copysignf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(88,16): error C2039: 'cosf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(88,20): error C3861: 'cosf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(93,16): error C2039: 'coshf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(93,21): error C3861: 'coshf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(98,16): error C2039: 'erff': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(98,20): error C3861: 'erff': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(103,16): error C2039: 'erfcf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(103,21): error C3861: 'erfcf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(108,16): error C2039: 'expf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(108,20): error C3861: 'expf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(113,16): error C2039: 'exp2f': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(113,21): error C3861: 'exp2f': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(118,16): error C2039: 'expm1f': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(118,22): error C3861: 'expm1f': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(123,16): error C2039: 'fabsf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(123,21): error C3861: 'fabsf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(128,16): error C2039: 'fdimf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(128,21): error C3861: 'fdimf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(133,16): error C2039: 'floorf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(133,22): error C3861: 'floorf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(139,16): error C2039: 'fmaf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(139,20): error C3861: 'fmaf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(144,16): error C2039: 'fmaxf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(144,21): error C3861: 'fmaxf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(149,16): error C2039: 'fminf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(149,21): error C3861: 'fminf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(154,16): error C2039: 'fmodf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(154,21): error C3861: 'fmodf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(159,16): error C2039: 'frexpf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(159,22): error C3861: 'frexpf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(164,16): error C2039: 'hypotf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(164,22): error C3861: 'hypotf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(169,16): error C2039: 'ilogbf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(169,22): error C3861: 'ilogbf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(174,16): error C2039: 'ldexpf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(174,22): error C3861: 'ldexpf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(179,16): error C2039: 'lgammaf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(179,23): error C3861: 'lgammaf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(184,16): error C2039: 'llrintf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(184,23): error C3861: 'llrintf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(189,16): error C2039: 'llroundf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(189,24): error C3861: 'llroundf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(194,16): error C2039: 'logf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(194,20): error C3861: 'logf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(199,16): error C2039: 'log10f': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(199,22): error C3861: 'log10f': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(204,16): error C2039: 'log1pf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(204,22): error C3861: 'log1pf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(209,16): error C2039: 'log2f': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(209,21): error C3861: 'log2f': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(214,16): error C2039: 'logbf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(214,21): error C3861: 'logbf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(219,16): error C2039: 'lrintf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(219,22): error C3861: 'lrintf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(224,16): error C2039: 'lroundf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(224,23): error C3861: 'lroundf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(229,16): error C2039: 'modff': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(229,21): error C3861: 'modff': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(234,16): error C2039: 'nearbyintf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(234,26): error C3861: 'nearbyintf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(239,16): error C2039: 'nextafterf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(239,26): error C3861: 'nextafterf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(245,16): error C2039: 'nexttowardf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(245,27): error C3861: 'nexttowardf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(251,16): error C2039: 'powf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(251,20): error C3861: 'powf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(259,16): error C2039: 'powf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(259,20): error C3861: 'powf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(264,16): error C2039: 'remainderf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(264,26): error C3861: 'remainderf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(270,16): error C2039: 'remquof': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(270,23): error C3861: 'remquof': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(275,16): error C2039: 'rintf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(275,21): error C3861: 'rintf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(280,16): error C2039: 'roundf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(280,22): error C3861: 'roundf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(285,16): error C2039: 'scalblnf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(285,24): fatal  error C1003: error count exceeds 100; stopping compilation
+  RigidSphere.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(19,16): error C2039: 'fabs': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(19,20): error C3861: 'fabs': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(27,45): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(32,16): error C2039: 'fabsf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(32,21): error C3861: 'fabsf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(37,16): error C2039: 'acosf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(37,21): error C3861: 'acosf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(42,16): error C2039: 'acoshf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(42,22): error C3861: 'acoshf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(47,16): error C2039: 'asinf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(47,21): error C3861: 'asinf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(52,16): error C2039: 'asinhf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(52,22): error C3861: 'asinhf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(57,16): error C2039: 'atanf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(57,21): error C3861: 'atanf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(62,16): error C2039: 'atanhf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(62,22): error C3861: 'atanhf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(67,16): error C2039: 'atan2f': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(67,22): error C3861: 'atan2f': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(72,16): error C2039: 'cbrtf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(72,21): error C3861: 'cbrtf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(77,16): error C2039: 'ceilf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(77,21): error C3861: 'ceilf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(83,16): error C2039: 'copysignf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(83,25): error C3861: 'copysignf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(88,16): error C2039: 'cosf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(88,20): error C3861: 'cosf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(93,16): error C2039: 'coshf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(93,21): error C3861: 'coshf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(98,16): error C2039: 'erff': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(98,20): error C3861: 'erff': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(103,16): error C2039: 'erfcf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(103,21): error C3861: 'erfcf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(108,16): error C2039: 'expf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(108,20): error C3861: 'expf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(113,16): error C2039: 'exp2f': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(113,21): error C3861: 'exp2f': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(118,16): error C2039: 'expm1f': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(118,22): error C3861: 'expm1f': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(123,16): error C2039: 'fabsf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(123,21): error C3861: 'fabsf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(128,16): error C2039: 'fdimf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(128,21): error C3861: 'fdimf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(133,16): error C2039: 'floorf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(133,22): error C3861: 'floorf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(139,16): error C2039: 'fmaf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(139,20): error C3861: 'fmaf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(144,16): error C2039: 'fmaxf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(144,21): error C3861: 'fmaxf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(149,16): error C2039: 'fminf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(149,21): error C3861: 'fminf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(154,16): error C2039: 'fmodf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(154,21): error C3861: 'fmodf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(159,16): error C2039: 'frexpf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(159,22): error C3861: 'frexpf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(164,16): error C2039: 'hypotf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(164,22): error C3861: 'hypotf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(169,16): error C2039: 'ilogbf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(169,22): error C3861: 'ilogbf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(174,16): error C2039: 'ldexpf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(174,22): error C3861: 'ldexpf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(179,16): error C2039: 'lgammaf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(179,23): error C3861: 'lgammaf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(184,16): error C2039: 'llrintf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(184,23): error C3861: 'llrintf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(189,16): error C2039: 'llroundf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(189,24): error C3861: 'llroundf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(194,16): error C2039: 'logf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(194,20): error C3861: 'logf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(199,16): error C2039: 'log10f': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(199,22): error C3861: 'log10f': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(204,16): error C2039: 'log1pf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(204,22): error C3861: 'log1pf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(209,16): error C2039: 'log2f': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(209,21): error C3861: 'log2f': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(214,16): error C2039: 'logbf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(214,21): error C3861: 'logbf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(219,16): error C2039: 'lrintf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(219,22): error C3861: 'lrintf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(224,16): error C2039: 'lroundf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(224,23): error C3861: 'lroundf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(229,16): error C2039: 'modff': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(229,21): error C3861: 'modff': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(234,16): error C2039: 'nearbyintf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(234,26): error C3861: 'nearbyintf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(239,16): error C2039: 'nextafterf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(239,26): error C3861: 'nextafterf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(245,16): error C2039: 'nexttowardf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(245,27): error C3861: 'nexttowardf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(251,16): error C2039: 'powf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(251,20): error C3861: 'powf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(259,16): error C2039: 'powf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(259,20): error C3861: 'powf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(264,16): error C2039: 'remainderf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(264,26): error C3861: 'remainderf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(270,16): error C2039: 'remquof': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(270,23): error C3861: 'remquof': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(275,16): error C2039: 'rintf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(275,21): error C3861: 'rintf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(280,16): error C2039: 'roundf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(280,22): error C3861: 'roundf': identifier not found
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(285,16): error C2039: 'scalblnf': is not a member of '`global namespace''
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath(285,24): fatal  error C1003: error count exceeds 100; stopping compilation
+  Generating Code...
