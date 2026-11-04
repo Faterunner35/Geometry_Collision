@@ -7,12 +7,12 @@
 
 #pragma once
 
-#include "Math.h"
+#include <Mathematics/Math.h>
 #include <algorithm>
 #include <array>
 #include <initializer_list>
 
-namespace Vector_GM
+namespace gte
 {
     template <int32_t N, typename Real>
     class Vector

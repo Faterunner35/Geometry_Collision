@@ -7,9 +7,9 @@
 
 #pragma once
 
-#include "TrackObject.h"
+#include <Applications/TrackObject.h>
 
-namespace Vector_GM
+namespace gte
 {
     class TrackBall : public TrackObject
     {

@@ -7,10 +7,10 @@
 
 #pragma once
 
-#include "BlendState.h"
-#include "Buffer.h"
-#include "DepthStencilState.h"
-#include "Font.h"
+#include <Graphics/BlendState.h>
+#include <Graphics/Buffer.h>
+#include <Graphics/DepthStencilState.h>
+#include <Graphics/Font.h>
 #include <Graphics/OverlayEffect.h>
 #include <Graphics/RasterizerState.h>
 #include <Graphics/TextureSingle.h>
@@ -20,7 +20,7 @@
 //
 //#define GTE_GRAPHICS_USE_NAMED_OBJECTS
 
-namespace Vector_GM
+namespace gte
 {
     class BaseEngine
     {

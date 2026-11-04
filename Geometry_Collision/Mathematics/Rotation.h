@@ -1,12 +1,18 @@
+// David Eberly, Geometric Tools, Redmond WA 98052
+// Copyright (c) 1998-2023
+// Distributed under the Boost Software License, Version 1.0.
+// https://www.boost.org/LICENSE_1_0.txt
+// https://www.geometrictools.com/License/Boost/LICENSE_1_0.txt
+// Version: 6.0.2022.01.06
 
 #pragma once
 
-#include "AxisAngle.h"
-#include "EulerAngles.h"
-#include "Matrix.h"
-#include "Quaternion.h"
+#include <Mathematics/AxisAngle.h>
+#include <Mathematics/EulerAngles.h>
+#include <Mathematics/Matrix.h>
+#include <Mathematics/Quaternion.h>
 
-namespace Vector_GM
+namespace gte
 {
     // Conversions among various representations of rotations.  The value of
     // N must be 3 or 4.  The latter case supports affine algebra when you use

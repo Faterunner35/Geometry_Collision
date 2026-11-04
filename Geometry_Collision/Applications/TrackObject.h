@@ -7,8 +7,8 @@
 
 #pragma once
 
-#include "Camera.h"
-#include "Node.h"
+#include <Graphics/Camera.h>
+#include <Graphics/Node.h>
 
 namespace gte
 {

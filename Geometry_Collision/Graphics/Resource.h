@@ -7,11 +7,11 @@
 
 #pragma once
 
-#include "GraphicsObject.h"
+#include <Graphics/GraphicsObject.h>
 #include <cstdint>
 #include <vector>
 
-namespace Vector_GM
+namespace gte
 {
     class Resource : public GraphicsObject
     {

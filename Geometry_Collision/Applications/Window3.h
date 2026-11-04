@@ -7,14 +7,17 @@
 
 #pragma once
 
-#include "MSW/Window.h"
+#if defined(GTE_USE_MSWINDOWS)
+#include <Applications/MSW/Window.h>
+#endif
+#if defined(GTE_USE_LINUX)
+#include <Applications/GLX/Window.h>
+#endif
+#include <Applications/CameraRig.h>
+#include <Applications/TrackBall.h>
+#include <Graphics/PVWUpdater.h>
 
-
-#include "CameraRig.h"
-#include "TrackBall.h"
-#include "PVWUpdater.h"
-
-namespace Vector_GM
+namespace gte
 {
     class Window3 : public Window
     {

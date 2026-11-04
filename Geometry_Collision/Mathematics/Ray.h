@@ -7,13 +7,13 @@
 
 #pragma once
 
-#include "Vector.h"
+#include <Mathematics/Vector.h>
 
 // The ray is represented as P+t*D, where P is the ray origin, D is a
 // unit-length direction vector, and t >= 0.  The user must ensure that D is
 // unit length.
 
-namespace Vector_GM
+namespace gte
 {
     template <int32_t N, typename Real>
     class Ray

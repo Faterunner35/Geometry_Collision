@@ -7,9 +7,9 @@
 
 #pragma once
 
-#include "Buffer.h"
-#include "Graphics/MemberLayout.h"
-#include "Mathematics/Logger.h"
+#include <Graphics/Buffer.h>
+#include <Graphics/MemberLayout.h>
+#include <Mathematics/Logger.h>
 #include <algorithm>
 
 namespace gte

@@ -1,13 +1,19 @@
+// David Eberly, Geometric Tools, Redmond WA 98052
+// Copyright (c) 1998-2023
+// Distributed under the Boost Software License, Version 1.0.
+// https://www.boost.org/LICENSE_1_0.txt
+// https://www.geometrictools.com/License/Boost/LICENSE_1_0.txt
+// Version: 6.0.2022.01.06
 
 #pragma once
 
-#include "Vector.h"
+#include <Mathematics/Vector.h>
 
 // The Euler angle data structure for representing rotations.  See the
 // document
 //   https://www.geometrictools.com/Documentation/EulerAngles.pdf
 
-namespace Vector_GM
+namespace gte
 {
     // Factorization into Euler angles is not necessarily unique. Let the
     // integer indices for the axes be (N0,N1,N2), which must be in the set

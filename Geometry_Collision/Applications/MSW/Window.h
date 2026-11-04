@@ -18,11 +18,10 @@
 #undef GTE_NOMINMAX_WAS_SET
 #endif
 
-#include "WindowApplication.h"
-#include "MSW/WindowSystem.h"
-#include "GraphicsEngine.h"
+#include <Applications/WindowApplication.h>
+#include <Graphics/GraphicsEngine.h>
 
-namespace Vector_GM
+namespace gte
 {
     class Window : public WindowApplication
     {
@@ -113,4 +112,4 @@ namespace Vector_GM
 // header file at this location breaks the cycle, because Window is defined
 // previously in this file and is known to the compiler when it includes this
 // file.
-
+#include <Applications/MSW/WindowSystem.h>

@@ -1,15 +1,20 @@
-
+// David Eberly, Geometric Tools, Redmond WA 98052
+// Copyright (c) 1998-2023
+// Distributed under the Boost Software License, Version 1.0.
+// https://www.boost.org/LICENSE_1_0.txt
+// https://www.geometrictools.com/License/Boost/LICENSE_1_0.txt
+// Version: 6.0.2022.01.06
 
 #pragma once
 
-#include "Matrix4x4.h"
-#include "VisualProgram.h"
-#include "ProgramFactory.h"
-#include "ConstantBuffer.h"
-#include "Texture.h"
-#include "TextureArray.h"
+#include <Mathematics/Matrix4x4.h>
+#include <Graphics/VisualProgram.h>
+#include <Graphics/ProgramFactory.h>
+#include <Graphics/ConstantBuffer.h>
+#include <Graphics/Texture.h>
+#include <Graphics/TextureArray.h>
 
-namespace Vector_GM
+namespace gte
 {
     class VisualEffect
     {

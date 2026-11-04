@@ -7,8 +7,8 @@
 
 #pragma once
 
-#include "Logger.h"
-#include "LexicoArray2.h"
+#include <Mathematics/Logger.h>
+#include <Mathematics/LexicoArray2.h>
 #include <cstring>
 #include <vector>
 
@@ -22,7 +22,7 @@
 // nonnull pointers for C and Y and pass K to numCols.  In all cases, pass
 // N to numRows.
 
-namespace Vector_GM
+namespace gte
 {
     template <typename Real>
     class GaussianElimination

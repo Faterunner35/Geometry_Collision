@@ -1,9 +1,14 @@
-
+// David Eberly, Geometric Tools, Redmond WA 98052
+// Copyright (c) 1998-2023
+// Distributed under the Boost Software License, Version 1.0.
+// https://www.boost.org/LICENSE_1_0.txt
+// https://www.geometrictools.com/License/Boost/LICENSE_1_0.txt
+// Version: 6.0.2022.03.28
 
 #pragma once
 
-#include "Visual.h"
-#include "Mesh.h"
+#include <Graphics/Visual.h>
+#include <Mathematics/Mesh.h>
 #include <cstdint>
 
 // This class is a factory for Visual objects corresponding to common
@@ -18,7 +23,7 @@
 // texture coordinates.  These are stored in the vertex buffer for 2-tuple
 // units.  All other attribute types are unassigned by the factory.
 
-namespace Vector_GM
+namespace gte
 {
     class MeshFactory
     {

@@ -7,9 +7,9 @@
 
 #pragma once
 
-#include "ViewVolume.h"
+#include <Graphics/ViewVolume.h>
 
-namespace Vector_GM
+namespace gte
 {
 
     class Camera : public ViewVolume

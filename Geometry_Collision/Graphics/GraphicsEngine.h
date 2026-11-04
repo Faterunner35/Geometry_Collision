@@ -7,13 +7,13 @@
 
 #pragma once
 
-#include "BaseEngine.h"
-#include "GEDrawTarget.h"
-#include "GEInputLayoutManager.h"
-#include "GEObject.h"
-#include "DrawTarget.h"
-#include "FontArialW400H18.h"
-#include "Visual.h"
+#include <Graphics/BaseEngine.h>
+#include <Graphics/GEDrawTarget.h>
+#include <Graphics/GEInputLayoutManager.h>
+#include <Graphics/GEObject.h>
+#include <Graphics/DrawTarget.h>
+#include <Graphics/FontArialW400H18.h>
+#include <Graphics/Visual.h>
 #include <array>
 #include <map>
 #include <mutex>

@@ -7,12 +7,11 @@
 
 #pragma once
 
-#include "Camera.h"
-#include "ConstantBuffer.h"
+#include <Graphics/Camera.h>
+#include <Graphics/ConstantBuffer.h>
 #include <map>
-#include<utility>
 
-namespace Vector_GM
+namespace gte
 {
     class CameraRig
     {

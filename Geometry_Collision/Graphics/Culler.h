@@ -7,8 +7,8 @@
 
 #pragma once
 
-#include "BoundingSphere.h"
-#include "Camera.h"
+#include <Graphics/BoundingSphere.h>
+#include <Graphics/Camera.h>
 #include <memory>
 #include <vector>
 

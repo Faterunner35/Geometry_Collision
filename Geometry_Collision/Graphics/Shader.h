@@ -6,23 +6,23 @@
 // Version: 6.0.2022.01.06
 
 #pragma once
+
+#include <Graphics/ConstantBuffer.h>
+#include <Graphics/RawBuffer.h>
+#include <Graphics/SamplerState.h>
+#include <Graphics/StructuredBuffer.h>
+#include <Graphics/Texture1.h>
+#include <Graphics/Texture2.h>
+#include <Graphics/Texture3.h>
+#include <Graphics/TextureBuffer.h>
+#include <Graphics/TextureCube.h>
+#include <Graphics/Texture1Array.h>
+#include <Graphics/Texture2Array.h>
+#include <Graphics/TextureCubeArray.h>
+#include <Mathematics/Logger.h>
 #include <cstdint>
-#include "ConstantBuffer.h"
-#include "RawBuffer.h"
-#include "SamplerState.h"
-#include "StructuredBuffer.h"
-#include "Texture1.h"
-#include "Texture2.h"
-#include "Texture3.h"
-#include "TextureBuffer.h"
-#include "TextureCube.h"
-#include "Texture1Array.h"
-#include "Texture2Array.h"
-#include "TextureCubeArray.h"
-#include "Logger.h"
 
-
-namespace Vector_GM
+namespace gte
 {
     class Shader : public GraphicsObject
     {

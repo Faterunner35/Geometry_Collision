@@ -7,9 +7,9 @@
 
 #pragma once
 
-#include "IntrIntervals.h"
-#include "IntrLine3AlignedBox3.h"
-#include "Ray.h"
+#include <Mathematics/IntrIntervals.h>
+#include <Mathematics/IntrLine3AlignedBox3.h>
+#include <Mathematics/Ray.h>
 
 // The test-intersection queries use the method of separating axes.
 // https://www.geometrictools.com/Documentation/MethodOfSeparatingAxes.pdf
