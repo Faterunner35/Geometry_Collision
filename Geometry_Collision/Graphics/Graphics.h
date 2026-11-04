@@ -7,8 +7,21 @@
 
 #pragma once
 
-#include "DX11/DX11Engine.h"
-#include "DX11/HLSLProgramFactory.h"
+#if defined(GTE_USE_MSWINDOWS)
 
+#if defined(GTE_USE_DIRECTX)
+#include <Graphics/DX11/DX11Engine.h>
+#include <Graphics/DX11/HLSLProgramFactory.h>
+#endif
 
+#if defined(GTE_USE_OPENGL)
+#include <Graphics/GL45/WGL/WGLEngine.h>
+#include <Graphics/GL45/GLSLProgramFactory.h>
+#endif
 
+#endif
+
+#if defined(GTE_USE_LINUX)
+#include <Graphics/GL45/GLX/GLXEngine.h>
+#include <Graphics/GL45/GLSLProgramFactory.h>
+#endif

@@ -7,10 +7,10 @@
 
 #pragma once
 
-#include "Matrix.h"
-#include "Vector2.h"
+#include <Mathematics/Matrix.h>
+#include <Mathematics/Vector2.h>
 
-namespace Vector_GM
+namespace gte
 {
     // Template alias for convenience.
     template <typename Real>

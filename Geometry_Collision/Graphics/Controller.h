@@ -9,7 +9,7 @@
 
 #include <string>
 
-namespace Vector_GM
+namespace gte
 {
     class ControlledObject;
 

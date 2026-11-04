@@ -1,8 +1,13 @@
-
+// David Eberly, Geometric Tools, Redmond WA 98052
+// Copyright (c) 1998-2023
+// Distributed under the Boost Software License, Version 1.0.
+// https://www.boost.org/LICENSE_1_0.txt
+// https://www.geometrictools.com/License/Boost/LICENSE_1_0.txt
+// Version: 6.0.2022.01.06
 
 #pragma once
 
-#include "Vector4.h"
+#include <Mathematics/Vector4.h>
 
 // The plane is defined by Dot((n0,n1,n2,c),(x0,x1,x2,1)) = 0, where a
 // plane normal is N = (n0,n1,n2,0), c is a constant, and X = (x0,x1,x2,1)
@@ -11,7 +16,7 @@
 // on the plane and are not collinear, then N = Cross(P1-P0,P2-P0) and
 // c = -Dot(N,P0).
 
-namespace Vector_GM
+namespace gte
 {
     template <typename Real>
     class CullingPlane

@@ -7,9 +7,9 @@
 
 #pragma once
 
-#include "ProgramDefines.h"
-#include "VisualProgram.h"
-#include "ComputeProgram.h"
+#include <Graphics/ProgramDefines.h>
+#include <Graphics/VisualProgram.h>
+#include <Graphics/ComputeProgram.h>
 #include <fstream>
 #include <stack>
 

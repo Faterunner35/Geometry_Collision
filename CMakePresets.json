@@ -12,7 +12,7 @@
       "hidden": true,
       "inherits": "base",
       "generator": "Ninja",
-      "cacheVariables": { "CMAKE_CXX_COMPILER": "cl.exe" },
+      "cacheVariables": { "CMAKE_CXX_COMPILER": "cl.exe", "GC_BUILD_APP": "ON" },
       "architecture": { "value": "x64", "strategy": "external" },
       "condition": { "type": "equals", "lhs": "${hostSystemName}", "rhs": "Windows" }
     },
@@ -34,6 +34,7 @@
       "inherits": "base",
       "generator": "Visual Studio 17 2022",
       "architecture": "x64",
+      "cacheVariables": { "GC_BUILD_APP": "ON" },
       "condition": { "type": "equals", "lhs": "${hostSystemName}", "rhs": "Windows" }
     },
     {

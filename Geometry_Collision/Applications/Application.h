@@ -1,15 +1,21 @@
+// David Eberly, Geometric Tools, Redmond WA 98052
+// Copyright (c) 1998-2023
+// Distributed under the Boost Software License, Version 1.0.
+// https://www.boost.org/LICENSE_1_0.txt
+// https://www.geometrictools.com/License/Boost/LICENSE_1_0.txt
+// Version: 6.0.2022.01.06
 
 #pragma once
 
-#include "Environment.h"
-#include "Graphics.h"
+#include <Applications/Environment.h>
+#include <Graphics/Graphics.h>
 
 // The Application class is an abstract base class with two derived classes,
 // ConsoleApplication and WindowApplication. All parameters for constructing
 // Application objects are in the Parameters structure or in nested structures
 // derived from Parameters.
 
-namespace Vector_GM
+namespace gte
 {
     class Application
     {

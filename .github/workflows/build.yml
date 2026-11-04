@@ -21,11 +21,15 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # Builds the CMake targets that compile today (gc_header_check,
-      # gc_smoke_tests). The Visual Studio demo application is not built:
-      # it does not compile yet, see README "Known issues".
+      # Linux: the demo uses the GTE OpenGL 4.5 / GLX backend.
+      - name: Install Linux dependencies
+        if: runner.os == 'Linux'
+        run: sudo apt-get update && sudo apt-get install -y libx11-dev libgl-dev libopengl-dev libegl-dev libpng-dev
+
+      # Builds the geometry header checks, the tests and the demo application
+      # (Windows: GTE DirectX 11 backend, Linux: GTE OpenGL backend).
       - name: Configure
-        run: cmake -B build -DCMAKE_BUILD_TYPE=Release
+        run: cmake -B build -DCMAKE_BUILD_TYPE=Release -DGC_BUILD_APP=ON
 
       - name: Build
         run: cmake --build build --config Release --parallel

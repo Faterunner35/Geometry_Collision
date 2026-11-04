@@ -7,11 +7,11 @@
 
 #pragma once
 
-#include "Spatial.h"
+#include <Graphics/Spatial.h>
 
 // This class represents grouping nodes in a spatial hierarchy.
 
-namespace Vector_GM
+namespace gte
 {
     class Node : public Spatial
     {

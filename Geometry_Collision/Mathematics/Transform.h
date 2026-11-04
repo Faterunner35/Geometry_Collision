@@ -7,10 +7,10 @@
 
 #pragma once
 
-#include "Logger.h"
-#include "Matrix3x3.h"
-#include "Matrix4x4.h"
-#include "Rotation.h"
+#include <Mathematics/Logger.h>
+#include <Mathematics/Matrix3x3.h>
+#include <Mathematics/Matrix4x4.h>
+#include <Mathematics/Rotation.h>
 
 // Transforms when GTE_USE_MAT_VEC is defined in the preprocessor symbols.
 //
@@ -53,7 +53,7 @@
 // as S^{-1} * R^t = R' * S'.  You would need to SetMatrix using S^{-1}*R^t
 // as the input.
 
-namespace Vector_GM
+namespace gte
 {
     template <typename Real>
     class Transform

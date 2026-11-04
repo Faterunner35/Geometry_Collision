@@ -7,9 +7,9 @@
 
 #pragma once
 
-#include "Shader.h"
+#include <Graphics/Shader.h>
 
-namespace Vector_GM
+namespace gte
 {
     class ComputeProgram
     {

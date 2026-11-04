@@ -7,10 +7,10 @@
 
 #pragma once
 
-#include "Application.h"
-#include "OnIdleTimer.h"
+#include <Applications/Application.h>
+#include <Applications/OnIdleTimer.h>
 
-namespace Vector_GM
+namespace gte
 {
     class WindowApplication : public Application
     {

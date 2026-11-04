@@ -1,8 +1,13 @@
-
+// David Eberly, Geometric Tools, Redmond WA 98052
+// Copyright (c) 1998-2023
+// Distributed under the Boost Software License, Version 1.0.
+// https://www.boost.org/LICENSE_1_0.txt
+// https://www.geometrictools.com/License/Boost/LICENSE_1_0.txt
+// Version: 6.0.2022.01.06
 
 #pragma once
 
-#include "Math.h"
+#include <Mathematics/Math.h>
 
 // Let f(t,A) = sin(t*A)/sin(A).  The slerp of quaternions q0 and q1 is
 //   slerp(t,q0,q1) = f(1-t,A)*q0 + f(t,A)*q1.
@@ -33,7 +38,7 @@
 // TODO: The constants in GetEstimate are those of the published paper.
 // Modify these to match the aforementioned GT document.
 
-namespace Vector_GM
+namespace gte
 {
     template <typename Real>
     class ChebyshevRatio

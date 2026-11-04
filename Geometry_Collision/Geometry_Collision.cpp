@@ -1,20 +1,74 @@
-// Geometry_Collision.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// Geometry_Collision demo launcher.
 //
+// Opens one of the three demo windows. Each window is adapted from a GTE 6.x
+// sample (David Eberly, Geometric Tools, Boost Software License 1.0), and
+// main() follows the structure of the samples' *Main.cpp files: create the
+// window through TheWindowSystem, run the message pump, destroy the window.
+//
+//   Geometry_Collision moving     moving sphere vs. aligned box (default),
+//                                 sample Intersection/MovingSphereBox
+//   Geometry_Collision boxsphere  oriented box vs. sphere test-intersection,
+//                                 sample Intersection/IntersectBoxSphere
+//   Geometry_Collision bounce     bouncing spheres physics,
+//                                 sample Physics/BouncingSpheres
 
+#include "BouncingSpheresWindow.h"
+#include "BoxSphereIntersectionWindow.h"
+#include "MovingSphereBoxWindow.h"
+#include <cstdint>
+#include <exception>
 #include <iostream>
+#include <string>
 
-int main()
+namespace
 {
-    std::cout << "Hello World!\n";
+    template <typename WindowType>
+    void Run(std::wstring const& title, int32_t xSize, int32_t ySize)
+    {
+        Window::Parameters parameters(title, 0, 0, xSize, ySize);
+        auto window = TheWindowSystem.Create<WindowType>(parameters);
+        TheWindowSystem.MessagePump(window, TheWindowSystem.DEFAULT_ACTION);
+        TheWindowSystem.Destroy(window);
+    }
+
+    void PrintUsage(char const* program)
+    {
+        std::cout
+            << "usage: " << program << " [moving | boxsphere | bounce]\n"
+            << "  moving     moving sphere vs. aligned box (default)\n"
+            << "  boxsphere  oriented box vs. sphere test-intersection\n"
+            << "  bounce     bouncing spheres physics\n";
+    }
 }
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
+int main(int argc, char* argv[])
+{
+    std::string const demo = (argc > 1 ? argv[1] : "moving");
 
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
+    try
+    {
+        if (demo == "moving")
+        {
+            Run<MovingSphereBoxWindow3>(L"MovingSphereBoxWindow3", 768, 768);
+        }
+        else if (demo == "boxsphere")
+        {
+            Run<IntersectBoxSphereWindow3>(L"IntersectBoxSphereWindow3", 512, 512);
+        }
+        else if (demo == "bounce")
+        {
+            Run<BouncingSpheresWindow3>(L"BouncingSpheresWindow3", 1024, 768);
+        }
+        else
+        {
+            PrintUsage(argv[0]);
+            return 1;
+        }
+    }
+    catch (std::exception const& e)
+    {
+        std::cout << e.what() << std::endl;
+        return 1;
+    }
+    return 0;
+}

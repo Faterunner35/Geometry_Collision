@@ -1,12 +1,18 @@
+// David Eberly, Geometric Tools, Redmond WA 98052
+// Copyright (c) 1998-2023
+// Distributed under the Boost Software License, Version 1.0.
+// https://www.boost.org/LICENSE_1_0.txt
+// https://www.geometrictools.com/License/Boost/LICENSE_1_0.txt
+// Version: 6.0.2022.01.06
 
 #pragma once
 
-#include "Logger.h"
-#include "Matrix.h"
-#include "IndexAttribute.h"
-#include "VertexAttribute.h"
-#include "Vector2.h"
-#include "Vector3.h"
+#include <Mathematics/Logger.h>
+#include <Mathematics/Matrix.h>
+#include <Mathematics/IndexAttribute.h>
+#include <Mathematics/VertexAttribute.h>
+#include <Mathematics/Vector2.h>
+#include <Mathematics/Vector3.h>
 
 // The Mesh class is designed to support triangulations of surfaces of a small
 // number of topologies. See the documents
@@ -43,7 +49,7 @@
 // that attribute by overriding one of the Initialize*() functions whose
 // stubs are defined in this class.
 
-namespace Vector_GM
+namespace gte
 {
     enum class MeshTopology
     {

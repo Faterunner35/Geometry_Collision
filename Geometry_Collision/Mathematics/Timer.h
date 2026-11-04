@@ -10,7 +10,7 @@
 #include <cstdint>
 #include <chrono>
 
-namespace Vector_GM
+namespace gte
 {
     class Timer
     {

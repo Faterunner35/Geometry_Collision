@@ -7,7 +7,7 @@
 
 #pragma once
 
-#include "Vector.h"
+#include <Mathematics/Vector.h>
 #include <array>
 
 namespace gte

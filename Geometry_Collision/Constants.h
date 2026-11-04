@@ -1,13 +1,20 @@
-#pragma once
-
-
+// Geometric Tools Library
+// https://www.geometrictools.com
+// Copyright (c) 2022 David Eberly
+// Distributed under the Boost Software License, Version 1.0
+// https://www.boost.org/LICENSE_1_0.txt
+// File Version: 2022.05.02
+//
+// Copied from GTL Mathematics/Arithmetic/Constants.h and modified for
+// Geometry_Collision: namespace gtl renamed to Vector_GM, includes point
+// to the copies in this folder.
 
 #pragma once
 
 #include "typeTraits_GM.h"
 #include <cstdint>
 
-namespace gtl
+namespace Vector_GM
 {
 	// Common integer-valued constants; for example, zero is represented
 	// by C_<T>(0) for T in {float, double, BSNumber<*>, BSRational<*>}.

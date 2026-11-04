@@ -7,7 +7,7 @@
 
 #pragma once
 
-#include "Matrix4x4.h"
+#include <Mathematics/Matrix4x4.h>
 
 // The basis vectors are tested for orthogonality once.  This is useful in
 // debug builds to trap incorrectly specified vectors.

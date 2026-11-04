@@ -7,11 +7,11 @@
 
 #pragma once
 
-#include "Resource.h"
+#include <Graphics/Resource.h>
 #include <cstdint>
 #include <functional>
 
-namespace Vector_GM
+namespace gte
 {
     class Buffer : public Resource
     {

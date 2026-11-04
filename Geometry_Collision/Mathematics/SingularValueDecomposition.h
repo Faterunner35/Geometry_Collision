@@ -7,8 +7,8 @@
 
 #pragma once
 
-#include "Logger.h"
-#include "Math.h"
+#include <Mathematics/Logger.h>
+#include <Mathematics/Math.h>
 #include <algorithm>
 #include <functional>
 #include <vector>
@@ -48,7 +48,7 @@
 // stored in the local copy of A (as suggested by Golub and van Loan) in order
 // to make the implementation more readable.
 
-namespace Vector_GM
+namespace gte
 {
     template <typename Real>
     class SingularValueDecomposition
