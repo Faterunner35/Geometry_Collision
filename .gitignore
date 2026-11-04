@@ -1,0 +1,57 @@
+# --- Visual Studio / MSBuild -------------------------------------------------
+.vs/
+*.user
+*.suo
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+*.vsidx
+*.aps
+ipch/
+*.ipch
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+Win32/
+ARM64/
+*.tlog
+*.lastbuildstate
+*.unsuccessfulbuild
+*.recipe
+*.FileListAbsolute.txt
+*.log
+
+# --- Compiler / linker output -------------------------------------------------
+*.obj
+*.o
+*.pdb
+*.ilk
+*.idb
+*.pch
+*.exe
+*.dll
+*.lib
+*.a
+*.so
+*.exp
+*.iobj
+*.ipdb
+
+# --- CMake ------------------------------------------------------------------
+build/
+out/
+cmake-build-*/
+CMakeUserPresets.json
+CMakeCache.txt
+CMakeFiles/
+compile_commands.json
+
+# --- Editors / OS -------------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
