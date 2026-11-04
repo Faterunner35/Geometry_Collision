@@ -107,7 +107,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Mathematics;C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Graphics;C:\Users\fater\source\repos\Geometry_Collision\Geometry_Collision\Applications;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)Mathematics;$(ProjectDir)Graphics;$(ProjectDir)Applications;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>

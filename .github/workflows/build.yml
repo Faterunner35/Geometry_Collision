@@ -1,0 +1,34 @@
+name: build
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: ${{ matrix.name }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - name: Windows MSVC 2022
+            os: windows-2022
+          - name: Linux GCC
+            os: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      # Builds the CMake targets that compile today (gc_header_check,
+      # gc_smoke_tests). The Visual Studio demo application is not built:
+      # it does not compile yet, see README "Known issues".
+      - name: Configure
+        run: cmake -B build -DCMAKE_BUILD_TYPE=Release
+
+      - name: Build
+        run: cmake --build build --config Release --parallel
+
+      - name: Test
+        run: ctest --test-dir build -C Release --output-on-failure
