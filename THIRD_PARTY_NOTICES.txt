@@ -1,0 +1,68 @@
+Third-party notices
+===================
+
+This repository contains source code written by David Eberly / Geometric Tools
+and redistributed under the Boost Software License 1.0. The full license text
+is in licenses/BSL-1.0.txt.
+
+    Geometric Tools Engine (GTE) and Geometric Tools Library (GTL)
+    David Eberly, Geometric Tools, Redmond WA 98052
+    Copyright (c) 1998-2023
+    Distributed under the Boost Software License, Version 1.0.
+    https://www.boost.org/LICENSE_1_0.txt
+    https://www.geometrictools.com/License/Boost/LICENSE_1_0.txt
+    https://www.geometrictools.com
+
+
+1. Vendored GTE folders (GTE 6.x, file versions dated 2022-2023)
+----------------------------------------------------------------
+
+    Geometry_Collision/Mathematics/
+    Geometry_Collision/Graphics/      (including DX11/ and GL45/)
+    Geometry_Collision/Applications/  (including MSW/ and GLX/)
+
+Most files keep their original GTE copyright header. Some files in these
+folders were modified in this repository (namespace gte renamed to
+Vector_GM) and their header was removed in the process. The notice above
+applies to them as well:
+
+    Mathematics/  AxisAngle.h, ChebyshevRatio.h, EulerAngles.h,
+                  IntrAlignedBox3Sphere3.h, IntrOrientedBox3Sphere3.h,
+                  LexicoArray2.h, LinearSystem.h, Logger.h, Matrix.h,
+                  Matrix3x3.h, Matrix4x4.h, Mesh.h, Quaternion.h, Rotation.h
+    Graphics/     BoundingSphere.h, ConstantColorEffect.h, ControlledObject.h,
+                  CullingPlane.h, DX11/DX11Engine.h, DrawingState.h,
+                  MeshFactory.h, PVWUpdater.h, SamplerState.h, Spatial.h,
+                  StructuredBuffer.h, Visual.h, VisualEffect.h, VisualProgram.h
+    Applications/ Application.h, Environment.h
+
+Graphics/GL45/GL/glcorearb.h, glext.h, glxext.h and wglext.h are
+Copyright (c) 2013-2014 The Khronos Group Inc. and carry their own
+permissive license in the file header.
+
+
+2. Files in Geometry_Collision/ derived from GTE / GTL
+------------------------------------------------------
+
+The following files in Geometry_Collision/ (outside the vendored folders) are
+copies or adaptations of Geometric Tools code. The original copyright header
+was removed when they were copied; the notice above applies to them.
+
+Derived from GTE (Mathematics/ unless noted):
+    AlignedBox.h, CanonicalBox.h, DCPQuery.h, FIQuery.h, TIQuery.h,
+    IntrIntervals.h, Line.h, Ray.h, OrientedBox.h, HyperPlane.h,
+    RigidBody.h, DistPointAlignedBox.h, DistPointCanonicalBox.h,
+    DistPointOrientedBox.h, QueryBoundedBox.h (from DistPointCanonicalBox.h),
+    IntrAlignedBoxSphere.h (from IntrAlignedBox3Sphere3.h),
+    IntrOrientedBoxShere.h (from IntrOrientedBox3Sphere3.h),
+    IntrLineAlignedBox.h (from IntrLine3AlignedBox3.h),
+    IntrRayAlignedBox.h, InterRayAlignedBox.h (from IntrRay3AlignedBox3.h)
+
+Derived from GTE samples (BouncingSpheres, IntersectBoxSphere,
+MovingSphereBox):
+    BouncingSpheresWindow.h/.cpp, BoxSphereIntersectionWindow.h/.cpp,
+    MovingSphereBoxWindow.h/.cpp, PhysModule.h/.cpp, RigidPlane.h/.cpp,
+    Rigidsphere.h, RigidSphere.cpp
+
+Derived from GTL (namespace gtl, GTL_* macros):
+    Vector.h, Constants.h, Exceptions.h, typeTraits_GM.h, HyperSphere.h
