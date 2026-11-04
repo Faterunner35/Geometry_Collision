@@ -21,20 +21,9 @@ is in licenses/BSL-1.0.txt.
     Geometry_Collision/Graphics/      (including DX11/ and GL45/)
     Geometry_Collision/Applications/  (including MSW/ and GLX/)
 
-Most files keep their original GTE copyright header. Some files in these
-folders were modified in this repository (namespace gte renamed to
-Vector_GM) and their header was removed in the process. The notice above
-applies to them as well:
-
-    Mathematics/  AxisAngle.h, ChebyshevRatio.h, EulerAngles.h,
-                  IntrAlignedBox3Sphere3.h, IntrOrientedBox3Sphere3.h,
-                  LexicoArray2.h, LinearSystem.h, Logger.h, Matrix.h,
-                  Matrix3x3.h, Matrix4x4.h, Mesh.h, Quaternion.h, Rotation.h
-    Graphics/     BoundingSphere.h, ConstantColorEffect.h, ControlledObject.h,
-                  CullingPlane.h, DX11/DX11Engine.h, DrawingState.h,
-                  MeshFactory.h, PVWUpdater.h, SamplerState.h, Spatial.h,
-                  StructuredBuffer.h, Visual.h, VisualEffect.h, VisualProgram.h
-    Applications/ Application.h, Environment.h
+These folders are an unmodified copy of GTE 6.6 (GitHub
+davideberly/GeometricTools, commit 0a528c6, 2023-05-25). Every file keeps its
+original copyright header.
 
 Graphics/GL45/GL/glcorearb.h, glext.h, glxext.h and wglext.h are
 Copyright (c) 2013-2014 The Khronos Group Inc. and carry their own
@@ -45,24 +34,27 @@ permissive license in the file header.
 ------------------------------------------------------
 
 The following files in Geometry_Collision/ (outside the vendored folders) are
-copies or adaptations of Geometric Tools code. The original copyright header
-was removed when they were copied; the notice above applies to them.
+copies or adaptations of Geometric Tools code. Each carries the original
+copyright header and a note describing the changes; the notice above applies
+to them.
 
 Derived from GTE (Mathematics/ unless noted):
     AlignedBox.h, CanonicalBox.h, DCPQuery.h, FIQuery.h, TIQuery.h,
     IntrIntervals.h, Line.h, Ray.h, OrientedBox.h, HyperPlane.h,
     RigidBody.h, DistPointAlignedBox.h, DistPointCanonicalBox.h,
-    DistPointOrientedBox.h, QueryBoundedBox.h (from DistPointCanonicalBox.h),
+    DistPointOrientedBox.h,
     IntrAlignedBoxSphere.h (from IntrAlignedBox3Sphere3.h),
     IntrOrientedBoxShere.h (from IntrOrientedBox3Sphere3.h),
     IntrLineAlignedBox.h (from IntrLine3AlignedBox3.h),
-    IntrRayAlignedBox.h, InterRayAlignedBox.h (from IntrRay3AlignedBox3.h)
+    IntrRayAlignedBox.h (from IntrRay3AlignedBox3.h)
 
 Derived from GTE samples (BouncingSpheres, IntersectBoxSphere,
 MovingSphereBox):
     BouncingSpheresWindow.h/.cpp, BoxSphereIntersectionWindow.h/.cpp,
     MovingSphereBoxWindow.h/.cpp, PhysModule.h/.cpp, RigidPlane.h/.cpp,
-    Rigidsphere.h, RigidSphere.cpp
+    RigidSphere.h/.cpp
 
 Derived from GTL (namespace gtl, GTL_* macros):
-    Vector.h, Constants.h, Exceptions.h, typeTraits_GM.h, HyperSphere.h
+    Constants.h, Exceptions.h, typeTraits_GM.h, HyperSphere.h
+
+Vector.h only re-exports GTE's Vector<N, Real> into namespace Vector_GM.
