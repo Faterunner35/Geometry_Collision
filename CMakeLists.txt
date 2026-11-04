@@ -111,8 +111,12 @@ add_test(NAME geometry_tests COMMAND gc_geometry_tests)
 #  put on the include path (its Math.h would shadow <math.h> on Windows).
 # -----------------------------------------------------------------------------
 if(GC_BUILD_APP)
-    set(GC_GTE_DEFS GTE_USE_ROW_MAJOR GTE_USE_MAT_VEC GTE_DISABLE_PCH)
+    set(GC_GTE_DEFS GTE_USE_ROW_MAJOR GTE_USE_MAT_VEC)
     if(WIN32)
+        # The GTE Windows sources rely on their umbrella "PCH" headers
+        # (GTGraphicsDX11PCH.h, GTApplicationsPCH.h) for their includes, as
+        # in GTE's own Visual Studio projects, so GTE_DISABLE_PCH must stay
+        # undefined here. They are compiled as real precompiled headers below.
         list(APPEND GC_GTE_DEFS GTE_USE_MSWINDOWS GTE_USE_DIRECTX UNICODE _UNICODE)
         file(GLOB GC_GTE_GRAPHICS_SRC CONFIGURE_DEPENDS
             ${GC_SRC_DIR}/Graphics/*.cpp ${GC_SRC_DIR}/Graphics/DX11/*.cpp)
@@ -120,7 +124,8 @@ if(GC_BUILD_APP)
             ${GC_SRC_DIR}/Applications/*.cpp ${GC_SRC_DIR}/Applications/MSW/*.cpp)
         set(GC_GTE_LIBS d3d11 d3dcompiler dxgi dxguid windowscodecs)
     elseif(UNIX AND NOT APPLE)
-        list(APPEND GC_GTE_DEFS GTE_USE_LINUX GTE_USE_OPENGL)
+        # GTE's own Linux CMake files build with GTE_DISABLE_PCH.
+        list(APPEND GC_GTE_DEFS GTE_USE_LINUX GTE_USE_OPENGL GTE_DISABLE_PCH)
         find_package(X11 REQUIRED)
         find_package(OpenGL REQUIRED COMPONENTS EGL)
         find_package(PNG REQUIRED)
@@ -147,6 +152,11 @@ if(GC_BUILD_APP)
             target_compile_definitions(${t} PUBLIC NOMINMAX)
         endif()
     endforeach()
+    if(WIN32)
+        target_precompile_headers(gc_gte_graphics PRIVATE
+            <Graphics/GTGraphics.h> <Graphics/DX11/GTGraphicsDX11.h>)
+        target_precompile_headers(gc_gte_applications PRIVATE <Applications/GTApplications.h>)
+    endif()
     target_link_libraries(gc_gte_applications PUBLIC gc_gte_graphics)
     target_link_libraries(gc_gte_graphics PUBLIC ${GC_GTE_LIBS})
 
