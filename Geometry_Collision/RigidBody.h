@@ -1,14 +1,35 @@
+// David Eberly, Geometric Tools, Redmond WA 98052
+// Copyright (c) 1998-2023
+// Distributed under the Boost Software License, Version 1.0.
+// https://www.boost.org/LICENSE_1_0.txt
+// https://www.geometrictools.com/License/Boost/LICENSE_1_0.txt
+// Version: 6.0.2022.02.06
+//
+// Copied from GTE 6.x Mathematics/RigidBody.h and modified for
+// Geometry_Collision: namespace gte renamed to Vector_GM, includes point
+// to the copies in this folder.
+
 #pragma once
 
-#include "Matrix3x3.h"
-#include "Rotation.h"
-#include "LinearSystem.h"
+#include "Vector.h"
+#include <Mathematics/Matrix3x3.h>
+#include <Mathematics/Rotation.h>
+#include <Mathematics/LinearSystem.h>
 #include <functional>
 #include <memory>
 
 
 namespace Vector_GM
 {
+	// The GTE matrix, quaternion and solver types that the rigid-body code
+	// is written against. They operate on the same Vector<N, Real> type that
+	// Vector.h exposes in this namespace.
+	using gte::Matrix;
+	using gte::Matrix3x3;
+	using gte::Quaternion;
+	using gte::Rotation;
+	using gte::LinearSystem;
+
 	// The rigid body state is stored in a separate structure so that
 	// the Force and Torque functionals can be passed a single object
 	// to avoid a large number of parameters that would otherwise have

@@ -1,5 +1,15 @@
-#pragma once
+// David Eberly, Geometric Tools, Redmond WA 98052
+// Copyright (c) 1998-2023
+// Distributed under the Boost Software License, Version 1.0.
+// https://www.boost.org/LICENSE_1_0.txt
+// https://www.geometrictools.com/License/Boost/LICENSE_1_0.txt
+// Version: 6.0.2022.01.06
+//
+// Copied from GTE 6.x Mathematics/CanonicalBox.h and modified for
+// Geometry_Collision: namespace gte renamed to Vector_GM, includes point
+// to the copies in this folder.
 
+#pragma once
 
 #include "Vector.h"
 #include<array>
@@ -58,37 +68,37 @@ namespace Vector_GM
 	};
 
 	// Comparisons to support sorted containers.
-	template <typename T, size_t N>
+	template <int32_t N, typename T>
 	bool operator==(CanonicalBox<N, T> const& box0, CanonicalBox<N, T> const& box1)
 	{
 		return box0.extent == box1.extent;
 	}
 
-	template <typename T, size_t N>
+	template <int32_t N, typename T>
 	bool operator!=(CanonicalBox<N, T> const& box0, CanonicalBox<N, T> const& box1)
 	{
 		return !operator==(box0, box1);
 	}
 
-	template <typename T, size_t N>
+	template <int32_t N, typename T>
 	bool operator<(CanonicalBox<N, T> const& box0, CanonicalBox<N, T> const& box1)
 	{
 		return box0.extent < box1.extent;
 	}
 
-	template <typename T, size_t N>
+	template <int32_t N, typename T>
 	bool operator<=(CanonicalBox<N, T> const& box0, CanonicalBox<N, T> const& box1)
 	{
 		return !operator<(box1, box0);
 	}
 
-	template <typename T, size_t N>
+	template <int32_t N, typename T>
 	bool operator>(CanonicalBox<N, T> const& box0, CanonicalBox<N, T> const& box1)
 	{
 		return operator<(box1, box0);
 	}
 
-	template <typename T, size_t N>
+	template <int32_t N, typename T>
 	bool operator>=(CanonicalBox<N, T> const& box0, CanonicalBox<N, T> const& box1)
 	{
 		return !operator<(box0, box1);

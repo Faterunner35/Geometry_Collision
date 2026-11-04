@@ -1,8 +1,15 @@
-#pragma once
+// Geometric Tools Library
+// https://www.geometrictools.com
+// Copyright (c) 2022 David Eberly
+// Distributed under the Boost Software License, Version 1.0
+// https://www.boost.org/LICENSE_1_0.txt
+// File Version: 2022.04.06
+//
+// Copied from GTL Utility/Exceptions.h and modified for
+// Geometry_Collision: GTL_ASSERT renamed to GM_ASSERT. The other GTL_*
+// macro names are unchanged.
 
 #pragma once
-
-
 
 #include <stdexcept>
 #include <string>

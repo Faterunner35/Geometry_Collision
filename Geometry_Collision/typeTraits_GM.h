@@ -1,9 +1,20 @@
+// Geometric Tools Library
+// https://www.geometrictools.com
+// Copyright (c) 2022 David Eberly
+// Distributed under the Boost Software License, Version 1.0
+// https://www.boost.org/LICENSE_1_0.txt
+// File Version: 2022.05.02
+//
+// Copied from GTL Utility/TypeTraits.h and modified for
+// Geometry_Collision: namespace gtl renamed to Vector_GM, includes point
+// to the copies in this folder.
+
 #pragma once
 
 #include <cstddef>
 #include <type_traits>
 
-namespace gtl
+namespace Vector_GM
 {
 	// The is_arbitrary_precision<T>::value for type T of float, double or
 	// long double is 'false'. The value is 'true' for BSNumber, BSRational
@@ -84,4 +95,3 @@ namespace gtl
 	template <typename T>
 	using IsNotDivisionType = std::enable_if_t<!has_division_operator<T>::value, size_t>;
 }
-

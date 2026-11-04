@@ -1,93 +1,97 @@
+// David Eberly, Geometric Tools, Redmond WA 98052
+// Copyright (c) 1998-2023
+// Distributed under the Boost Software License, Version 1.0.
+// https://www.boost.org/LICENSE_1_0.txt
+// https://www.geometrictools.com/License/Boost/LICENSE_1_0.txt
+// Version: 6.0.2022.01.06
+//
+// Copied from GTE 6.x Mathematics/Hypersphere.h and modified for
+// Geometry_Collision: namespace gte renamed to Vector_GM, includes point
+// to the copies in this folder. (This file previously held the GTL version,
+// Hypersphere<T, N> with the type first; it now uses the GTE layout
+// Hypersphere<N, Real> to match Vector<N, Real> and the other headers.)
+
 #pragma once
-// The hypersphere is represented as |X-C| = R where C is the center and R is
-// the radius. The hypersphere is a circle for dimension 2 or a sphere for
-// dimension 3.
 
 #include "Vector.h"
-#include <cstddef>
+
+// The hypersphere is represented as |X-C| = R where C is the center and R is
+// the radius.  The hypersphere is a circle for dimension 2 or a sphere for
+// dimension 3.
 
 namespace Vector_GM
 {
-	template <typename T, size_t N>
-	class Hypersphere
-	{
-	public:
-		using value_type = T;
+    template <int32_t N, typename Real>
+    class Hypersphere
+    {
+    public:
+        // Construction and destruction.  The default constructor sets the center
+        // to (0,...,0) and the radius to 1.
+        Hypersphere()
+            :
+            radius((Real)1)
+        {
+            center.MakeZero();
+        }
 
-		// Construction. The default constructor sets all members to zero.
-		Hypersphere()
-			:
-			center{},
-			radius(C_<T>(0))
-		{
-		}
+        Hypersphere(Vector<N, Real> const& inCenter, Real inRadius)
+            :
+            center(inCenter),
+            radius(inRadius)
+        {
+        }
 
-		Hypersphere(Vector<T, N> const& inCenter, T const& inRadius)
-			:
-			center(inCenter),
-			radius(inRadius)
-		{
-		}
+        // Public member access.
+        Vector<N, Real> center;
+        Real radius;
 
-		Vector<T, N> center;
-		T radius;
+    public:
+        // Comparisons to support sorted containers.
+        bool operator==(Hypersphere const& hypersphere) const
+        {
+            return center == hypersphere.center && radius == hypersphere.radius;
+        }
 
-	private:
-		friend class UnitTestHypersphere;
-	};
+        bool operator!=(Hypersphere const& hypersphere) const
+        {
+            return !operator==(hypersphere);
+        }
 
-	// Comparisons to support sorted containers.
-	template <typename T, size_t N>
-	bool operator==(Hypersphere<T, N> const& hypersphere0, Hypersphere<T, N> const& hypersphere1)
-	{
-		return hypersphere0.center == hypersphere1.center
-			&& hypersphere0.radius == hypersphere1.radius;
-	}
+        bool operator< (Hypersphere const& hypersphere) const
+        {
+            if (center < hypersphere.center)
+            {
+                return true;
+            }
 
-	template <typename T, size_t N>
-	bool operator!=(Hypersphere<T, N> const& hypersphere0, Hypersphere<T, N> const& hypersphere1)
-	{
-		return !operator==(hypersphere0, hypersphere1);
-	}
+            if (center > hypersphere.center)
+            {
+                return false;
+            }
 
-	template <typename T, size_t N>
-	bool operator<(Hypersphere<T, N> const& hypersphere0, Hypersphere<T, N> const& hypersphere1)
-	{
-		if (hypersphere0.center < hypersphere1.center)
-		{
-			return true;
-		}
+            return radius < hypersphere.radius;
+        }
 
-		if (hypersphere0.center > hypersphere1.center)
-		{
-			return false;
-		}
+        bool operator<=(Hypersphere const& hypersphere) const
+        {
+            return !hypersphere.operator<(*this);
+        }
 
-		return hypersphere0.radius < hypersphere1.radius;
-	}
+        bool operator> (Hypersphere const& hypersphere) const
+        {
+            return hypersphere.operator<(*this);
+        }
 
-	template <typename T, size_t N>
-	bool operator<=(Hypersphere<T, N> const& hypersphere0, Hypersphere<T, N> const& hypersphere1)
-	{
-		return !operator<(hypersphere1, hypersphere0);
-	}
+        bool operator>=(Hypersphere const& hypersphere) const
+        {
+            return !operator<(hypersphere);
+        }
+    };
 
-	template <typename T, size_t N>
-	bool operator>(Hypersphere<T, N> const& hypersphere0, Hypersphere<T, N> const& hypersphere1)
-	{
-		return operator<(hypersphere1, hypersphere0);
-	}
+    // Template aliases for convenience.
+    template <typename Real>
+    using Circle2 = Hypersphere<2, Real>;
 
-	template <typename T, size_t N>
-	bool operator>=(Hypersphere<T, N> const& hypersphere0, Hypersphere<T, N> const& hypersphere1)
-	{
-		return !operator<(hypersphere0, hypersphere1);
-	}
-
-	// Template aliases for convenience.
-	template <typename T> using Circle2 = Hypersphere<T, 2>;
-	template <typename T> using Sphere3 = Hypersphere<T, 3>;
+    template <typename Real>
+    using Sphere3 = Hypersphere<3, Real>;
 }
-
-
-
