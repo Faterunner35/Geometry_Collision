@@ -14,11 +14,8 @@ set_property(GLOBAL PROPERTY USE_FOLDERS ON)
 
 set(GC_SRC_DIR ${CMAKE_CURRENT_SOURCE_DIR}/Geometry_Collision)
 
-option(GC_CHECK_ALL_HEADERS
-    "Also compile the geometry headers that are known not to compile yet (see README, 'Known issues')"
-    OFF)
 option(GC_BUILD_APP
-    "Windows only: build the demo/physics sources exactly as Geometry_Collision.vcxproj does. Does NOT compile yet (see README)"
+    "Build the demo application with the vendored GTE Graphics/Applications (Windows: DirectX 11, Linux: OpenGL/GLX)"
     OFF)
 
 # -----------------------------------------------------------------------------
@@ -45,32 +42,22 @@ target_include_directories(gc_geometry INTERFACE ${GC_SRC_DIR})
 target_link_libraries(gc_geometry INTERFACE gc_options)
 
 # -----------------------------------------------------------------------------
-#  gc_header_check: compiles every listed header in its own translation unit
+#  gc_header_check: compiles every geometry header in its own translation unit
 #  (included twice, to check the include guard). This catches headers that are
 #  not self-contained.
-#
-#  GC_HEADERS_OK      compile today with GCC and MSVC.
-#  GC_HEADERS_PENDING the geometry/intersection headers; they do not compile yet
-#                     because of the unfinished gte/gtl -> Vector_GM migration.
-#                     Move a header to GC_HEADERS_OK once it compiles.
 # -----------------------------------------------------------------------------
-set(GC_HEADERS_OK
-    Constants.h
-    DCPQuery.h
-    Exceptions.h
-    FIQuery.h
-    TIQuery.h
-    typeTraits_GM.h)
-
-set(GC_HEADERS_PENDING
+set(GC_HEADERS
     AlignedBox.h
     CanonicalBox.h
+    Constants.h
+    DCPQuery.h
     DistPointAlignedBox.h
     DistPointCanonicalBox.h
     DistPointOrientedBox.h
+    Exceptions.h
+    FIQuery.h
     HyperPlane.h
     HyperSphere.h
-    InterRayAlignedBox.h
     IntrAlignedBoxSphere.h
     IntrIntervals.h
     IntrLineAlignedBox.h
@@ -78,17 +65,14 @@ set(GC_HEADERS_PENDING
     IntrRayAlignedBox.h
     Line.h
     OrientedBox.h
-    QueryBoundedBox.h
     Ray.h
-    Vector.h)
-
-set(GC_HEADERS_TO_CHECK ${GC_HEADERS_OK})
-if(GC_CHECK_ALL_HEADERS)
-    list(APPEND GC_HEADERS_TO_CHECK ${GC_HEADERS_PENDING})
-endif()
+    RigidBody.h
+    TIQuery.h
+    Vector.h
+    typeTraits_GM.h)
 
 set(GC_HEADER_CHECK_SOURCES)
-foreach(header IN LISTS GC_HEADERS_TO_CHECK)
+foreach(header IN LISTS GC_HEADERS)
     string(MAKE_C_IDENTIFIER "${header}" header_id)
     set(tu ${CMAKE_CURRENT_BINARY_DIR}/header_check/${header_id}.cpp)
     set(GC_HEADER "${header}")
@@ -110,18 +94,63 @@ target_link_libraries(gc_smoke_tests PRIVATE gc_geometry)
 set_target_properties(gc_smoke_tests PROPERTIES FOLDER "Tests")
 add_test(NAME smoke_tests COMMAND gc_smoke_tests)
 
+add_executable(gc_geometry_tests tests/geometry_tests.cpp tests/test_harness.h)
+target_link_libraries(gc_geometry_tests PRIVATE gc_geometry)
+set_target_properties(gc_geometry_tests PROPERTIES FOLDER "Tests")
+add_test(NAME geometry_tests COMMAND gc_geometry_tests)
+
 # -----------------------------------------------------------------------------
-#  Geometry_Collision: the Visual Studio application, mirrored 1:1 from
-#  Geometry_Collision.vcxproj (same sources, same include directories).
-#  Off by default because it does not compile yet; see README.
+#  Geometry_Collision: the demo application (three windows adapted from GTE
+#  samples). It needs the vendored GTE Graphics and Applications libraries,
+#  built here per platform:
+#    Windows: DirectX 11 engine + Win32 windows (MSW)
+#    Linux:   OpenGL 4.5 engine + X11 windows (GLX); needs libx11-dev,
+#             libgl-dev, libegl-dev, libpng-dev
+#  GTE code includes <Mathematics/...>, <Graphics/...>, <Applications/...>,
+#  so the include root is Geometry_Collision/ itself; Mathematics/ is never
+#  put on the include path (its Math.h would shadow <math.h> on Windows).
 # -----------------------------------------------------------------------------
 if(GC_BUILD_APP)
-    if(NOT WIN32)
-        message(FATAL_ERROR "GC_BUILD_APP requires Windows (GTE DirectX 11 / Win32 window code).")
+    set(GC_GTE_DEFS GTE_USE_ROW_MAJOR GTE_USE_MAT_VEC GTE_DISABLE_PCH)
+    if(WIN32)
+        list(APPEND GC_GTE_DEFS GTE_USE_MSWINDOWS GTE_USE_DIRECTX UNICODE _UNICODE)
+        file(GLOB GC_GTE_GRAPHICS_SRC CONFIGURE_DEPENDS
+            ${GC_SRC_DIR}/Graphics/*.cpp ${GC_SRC_DIR}/Graphics/DX11/*.cpp)
+        file(GLOB GC_GTE_APP_SRC CONFIGURE_DEPENDS
+            ${GC_SRC_DIR}/Applications/*.cpp ${GC_SRC_DIR}/Applications/MSW/*.cpp)
+        set(GC_GTE_LIBS d3d11 d3dcompiler dxgi dxguid windowscodecs)
+    elseif(UNIX AND NOT APPLE)
+        list(APPEND GC_GTE_DEFS GTE_USE_LINUX GTE_USE_OPENGL)
+        find_package(X11 REQUIRED)
+        find_package(OpenGL REQUIRED COMPONENTS EGL)
+        find_package(PNG REQUIRED)
+        find_package(Threads REQUIRED)
+        file(GLOB GC_GTE_GRAPHICS_SRC CONFIGURE_DEPENDS
+            ${GC_SRC_DIR}/Graphics/*.cpp
+            ${GC_SRC_DIR}/Graphics/GL45/*.cpp
+            ${GC_SRC_DIR}/Graphics/GL45/GLX/*.cpp)
+        file(GLOB GC_GTE_APP_SRC CONFIGURE_DEPENDS
+            ${GC_SRC_DIR}/Applications/*.cpp ${GC_SRC_DIR}/Applications/GLX/*.cpp)
+        set(GC_GTE_LIBS X11::X11 OpenGL::GL OpenGL::EGL PNG::PNG Threads::Threads)
+    else()
+        message(FATAL_ERROR "GC_BUILD_APP supports Windows (DirectX 11) and Linux (OpenGL/GLX).")
     endif()
-    message(WARNING "GC_BUILD_APP=ON: these sources are known not to compile yet (see README, 'Known issues').")
 
-    set(GC_APP_SOURCES
+    add_library(gc_gte_graphics STATIC ${GC_GTE_GRAPHICS_SRC})
+    add_library(gc_gte_applications STATIC ${GC_GTE_APP_SRC})
+    foreach(t gc_gte_graphics gc_gte_applications)
+        target_include_directories(${t} PUBLIC ${GC_SRC_DIR})
+        target_compile_definitions(${t} PUBLIC ${GC_GTE_DEFS})
+        set_target_properties(${t} PROPERTIES FOLDER "GTE")
+        if(MSVC)
+            target_compile_options(${t} PRIVATE /utf-8 /MP /W1)
+            target_compile_definitions(${t} PUBLIC NOMINMAX)
+        endif()
+    endforeach()
+    target_link_libraries(gc_gte_applications PUBLIC gc_gte_graphics)
+    target_link_libraries(gc_gte_graphics PUBLIC ${GC_GTE_LIBS})
+
+    add_executable(Geometry_Collision
         ${GC_SRC_DIR}/BouncingSpheresWindow.cpp
         ${GC_SRC_DIR}/BoxSphereIntersectionWindow.cpp
         ${GC_SRC_DIR}/Geometry_Collision.cpp
@@ -129,16 +158,15 @@ if(GC_BUILD_APP)
         ${GC_SRC_DIR}/PhysModule.cpp
         ${GC_SRC_DIR}/RigidPlane.cpp
         ${GC_SRC_DIR}/RigidSphere.cpp)
-
-    add_executable(Geometry_Collision ${GC_APP_SOURCES})
-    target_include_directories(Geometry_Collision PRIVATE
-        ${GC_SRC_DIR}
-        ${GC_SRC_DIR}/Mathematics
-        ${GC_SRC_DIR}/Graphics
-        ${GC_SRC_DIR}/Applications)
-    target_compile_definitions(Geometry_Collision PRIVATE _CONSOLE)
-    target_link_libraries(Geometry_Collision PRIVATE gc_options)
+    target_link_libraries(Geometry_Collision PRIVATE gc_geometry gc_gte_applications)
+    # BouncingSpheres loads Data/BallTextureWrap.png and Data/Initial.txt. It
+    # searches GC_DATA_DIR (the source folder) and Data/ next to the working
+    # directory; the folder is also copied next to the executable.
+    target_compile_definitions(Geometry_Collision PRIVATE GC_DATA_DIR="${GC_SRC_DIR}/Data")
+    add_custom_command(TARGET Geometry_Collision POST_BUILD
+        COMMAND ${CMAKE_COMMAND} -E copy_directory
+            ${GC_SRC_DIR}/Data $<TARGET_FILE_DIR:Geometry_Collision>/Data)
     set_property(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} PROPERTY VS_STARTUP_PROJECT Geometry_Collision)
 else()
-    set_property(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} PROPERTY VS_STARTUP_PROJECT gc_smoke_tests)
+    set_property(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} PROPERTY VS_STARTUP_PROJECT gc_geometry_tests)
 endif()
