@@ -13,7 +13,7 @@
 
 #include <Applications/Window3.h>
 #include <Graphics/ConstantColorEffect.h>
-#include "IntrOrientedBoxShere.h"
+#include "IntrOrientedBoxSphere.h"
 using namespace gte;
 using namespace Vector_GM;
 

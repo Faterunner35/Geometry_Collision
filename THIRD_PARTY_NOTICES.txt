@@ -44,7 +44,7 @@ Derived from GTE (Mathematics/ unless noted):
     RigidBody.h, DistPointAlignedBox.h, DistPointCanonicalBox.h,
     DistPointOrientedBox.h,
     IntrAlignedBoxSphere.h (from IntrAlignedBox3Sphere3.h),
-    IntrOrientedBoxShere.h (from IntrOrientedBox3Sphere3.h),
+    IntrOrientedBoxSphere.h (from IntrOrientedBox3Sphere3.h),
     IntrLineAlignedBox.h (from IntrLine3AlignedBox3.h),
     IntrRayAlignedBox.h (from IntrRay3AlignedBox3.h)
 

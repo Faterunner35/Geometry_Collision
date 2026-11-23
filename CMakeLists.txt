@@ -61,7 +61,7 @@ set(GC_HEADERS
     IntrAlignedBoxSphere.h
     IntrIntervals.h
     IntrLineAlignedBox.h
-    IntrOrientedBoxShere.h
+    IntrOrientedBoxSphere.h
     IntrRayAlignedBox.h
     Line.h
     OrientedBox.h

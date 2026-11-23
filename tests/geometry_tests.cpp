@@ -17,7 +17,7 @@
 #include "IntrAlignedBoxSphere.h"
 #include "IntrIntervals.h"
 #include "IntrLineAlignedBox.h"
-#include "IntrOrientedBoxShere.h"
+#include "IntrOrientedBoxSphere.h"
 #include "IntrRayAlignedBox.h"
 #include "Line.h"
 #include "OrientedBox.h"

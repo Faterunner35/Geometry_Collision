@@ -13,7 +13,7 @@
 
 #include <Applications/Window3.h>
 #include "IntrAlignedBoxSphere.h"
-#include "IntrOrientedBoxShere.h"
+#include "IntrOrientedBoxSphere.h"
 #include <memory>
 #include <utility>
 
